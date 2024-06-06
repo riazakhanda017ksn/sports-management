@@ -1,0 +1,104 @@
+.video-section {
+    position: relative;
+    width: 100%;
+    background: black;
+    z-index: 1;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 120vh;
+  }
+    
+    .video-section video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.8;
+    }
+    .text {
+      position: relative;
+      z-index: 0;
+    }
+    
+    .video-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #0000008f;
+    }
+    .video-section {
+  
+      overflow: hidden;
+  }
+    /* div#root {
+      overflow: hidden;
+  } */
+
+  .banner___text p {
+    padding: 0 0px;
+    text-align: left;
+
+    width: 70%;
+    margin-right: auto;
+}
+
+  .banner___text h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+  
+  .banner___text {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 30px;
+}
+.banner___text p {
+    line-height: 36px;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.banner___text button {
+    padding: 22px 58px;
+    background: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    &:hover{
+     background: #15023A;
+     color: #fafafa;
+    }
+}
+span.box__item {
+  background: white;
+  display: inline-block;
+  padding: 10px 50px;
+  margin-bottom: 18px;
+  color: #15023A;
+  clip-path: polygon(100% 0, 89% 100%, 0 100%, 11% 0);
+}
+
+.banner___text a {
+  width: 100%;
+}
+
+.categories h1 {
+  margin-bottom: 45px !important;
+}

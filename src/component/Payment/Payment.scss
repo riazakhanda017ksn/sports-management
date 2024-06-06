@@ -1,0 +1,35 @@
+.maximum-checkout {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    background: #8080800a;
+    padding: 30px;
+    padding-bottom: 120px;
+    border-radius: 6px;
+}
+
+.checkout {
+    border: 1px solid #808080a1;
+    padding: 16px;
+    border-radius: 5px;
+    position: relative;
+}
+.checkout button {
+    position: absolute;
+    top: 62px;
+    left: 0;
+    padding: 15px 30px;
+    font-family: montserrat;
+    color: white;
+    cursor: pointer;
+    background: #15023A;
+    border:1px solid #15023A;
+    border-radius: 6px;
+}
+
+.checkout h1 {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+}

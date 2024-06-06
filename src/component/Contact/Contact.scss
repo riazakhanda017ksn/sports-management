@@ -1,0 +1,161 @@
+.grid-management {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .contact-details {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 0px;
+        padding-right: 50px;
+        }
+        .contact {
+            padding: 100px 0;
+        }
+
+        .contact h1 {
+            font-size: 55px;
+            text-transform: uppercase;
+            font-weight: 800;
+            margin-bottom: 22px;
+            letter-spacing: 3px;
+            line-height: 70px;
+        }
+
+        .contact p {
+            font-size: 16px;
+            color: #767676;
+            font-weight: 400;
+        }
+        .contact-details {
+            padding-top: 40px;
+        }
+
+        .contact-one {
+            text-align: end;
+        }
+        .contact-one h3 {
+            font-size: 18px;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+        .contact-one p {
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+        .contact-one h4 {
+            font-size: 13px;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+        .image-parent {
+            display: grid;
+            grid-template-columns: 1fr 2.5fr;
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+
+            .img__item img {
+                width: 100%;
+            }
+
+            .img__item{
+                margin-top: 70px;
+
+            }
+
+            .contact__form{
+                margin-top: 50px;
+            }
+            .form-container{
+                margin-top: 50px;
+            }
+
+            .form___flex {
+                display: flex;
+                justify-content: space-between;
+                gap: 30px;
+            }
+
+            .container-for-contact {
+                display: grid;
+                grid-template-columns:2.8fr 1fr ;
+                grid-template-rows: 1fr;
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+                }
+
+                .form-input {
+                    width: 100%;
+                }
+
+                .form-input input {
+                    width: 100%;
+                    margin-bottom: 40px;
+                    border-bottom: 1px solid #8080809e !important;
+                    outline: none;
+                    border: none;
+                    padding-bottom: 20px;
+                    color: #767676;
+                }
+
+                .text-area textarea{
+                    width: 100%;
+                    margin-bottom: 40px;
+                    border-bottom: 1px solid #8080809e !important;
+                    outline: none;
+                    border: none;
+                    padding-bottom: 20px;
+                    color: #767676;
+                    font-family: montserrat;
+                    font-size: 14px;
+
+                }
+
+                .form-input input::placeholder,  .text-area::placeholder{
+                    font-family: montserrat;
+                    font-size: 14px;
+                }
+
+                .form-container button {
+                    font-size: 16px;
+                    font-family: "Montserrat";
+                    padding: 19px 70px;
+                    background: #15023A;
+                    color: #FFF;
+                    text-transform: uppercase;
+                    border: 1px solid #15023A;
+                    cursor: pointer;
+                    transition: 0.3s ease-in-out;
+                    margin-top: 10px;
+                }
+                .form-container button:hover{
+                    background: none;
+                    color: #15023A;
+                }
+                .map{
+                    background:linear-gradient(#000000a2,#000000a2),url(../../assets/IMG/map.webp)no-repeat top center;
+                    background-size: cover;
+                    height: 80vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+
+                .map svg{
+                    font-size: 50px;
+                    color: #FFF;
+                    cursor: pointer;
+                }
+
+                .map p{
+                    color: #ffffffab;
+                    font-size: 14px;
+                }

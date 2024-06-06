@@ -1,0 +1,64 @@
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  padding: 80px 0;
+}
+
+.form-grid h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.form-grid input {
+  width: 95%;
+  margin-bottom: 20px;
+  margin-top: 11px;
+  padding: 15px;
+  font-family: montserrat;
+  border: 1px solid #76767673;
+}
+.form-grid input {
+  width: 90%;
+  margin-bottom: 20px;
+  margin-top: 11px;
+  padding: 15px;
+  border: 1px solid #76767673;
+  outline: none;
+}
+
+.form-grid button {
+  font-size: 16px;
+  font-family: "Montserrat";
+  padding: 19px 70px;
+  background: #15023A;
+  color: #FFF;
+  text-transform: uppercase;
+  border: 1px solid #15023A;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-top: 10px;
+}
+.form-grid button:hover{
+  background: none;
+  color: #15023A;
+}
+.order-proceed-item {
+  border: 1px solid #8080800a;
+  padding: 7px 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #8080800a;
+}
+.cart-summary h2 {
+  margin-bottom: 52px;
+}
+.cart-summary h3 {
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}

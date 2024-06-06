@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import "./global.scss";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+// 
+.video-icon h5 {
+  font-size: 22px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.video-icon {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  flex-direction: column;
+}
+.video-icon span {
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 30px;
+  position: relative;
+}
+.video-icon span svg {
+  color: #fff;
+  font-size: 4rem;
+  transition: .3s ease-in-out;
+}
+.video-icon span:before {
+  -webkit-animation: loading 1s ease-in infinite;
+  animation: loading 1s ease-in infinite;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+// 
+.buy-functionality {
+  background: #f4f4f4;
+  border-radius: 15px;
+  display: flex;
+  font-family: Montserrat;
+  justify-content: space-between;
+  padding: 80px;
+  position: relative;
+}
+.watch {
+  text-align: center;
+}
+.watch button {
+  font-size: 16px;
+  font-family: "Montserrat";
+  padding: 19px 70px;
+  background: #15023A;
+  color: #FFF;
+  text-transform: uppercase;
+  border: 1px solid #15023A;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.watch button:hover{
+  background: white;
+  color: #15023A;
+}
+.buy-functionality h3 {
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 20px 0;
+}
+.buy-functionality h4 {
+  color: #767676;
+  font-size: 17px;
+  font-weight: 400;
+}
+.buy-functionality svg {
+  color: #767676;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+// 
+
+.content-text {
+  padding: 100px 0;
+}
+.content-text p{
+  color: #767676;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  width: 66%;
+}
+.position-changing__item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -150px !important;
+}
+.content-text h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.item__{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.banner___text h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 800;
+  width: 70% !important;
+  margin-right: auto;
+  color: #FFF;
+  margin-top: 0;
+  line-height: 75px;
+  letter-spacing: 1px;
+}
+.item__:before {
+  background: linear-gradient(45deg,rgba(0,0,0,.867),rgba(21,2,58,.49));
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.topbar .wrapper .left .logo {
+  font-size: 21px;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 40px;
+  font-weight: 300 !important;
+  font-family: "Sevillana";
+  position: relative;
+  top: 8px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.topbar.active > .wrapper > .left a {
+  color: black;
+}
+.topbar.active > .wrapper >.right >.hamburger span {
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  transform-origin: left;
+  transition: all 2s ease;
+}
+.css-1m9128y {
+  opacity: 0 !important;
+}
+
+.speaker {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr;
+  margin-top: 40px;
+}
+.speaker img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+}
+.text-center.get-start button {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  padding: 19px 70px;
+  margin-top: 80px;
+  background: #15023A;
+  color: #FFF;
+  text-transform: uppercase;
+  border: 1px solid #15023A;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  &:hover{
+    background: white;
+    color: #15023A;
+  }
+}
+.speaker img {
+
+  border-radius: 6px;
+}
+
+.container{
+  width: 1280px !important;
+  margin: 0 auto;
+}

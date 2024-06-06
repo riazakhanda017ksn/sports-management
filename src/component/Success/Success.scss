@@ -1,0 +1,36 @@
+.order-proceed-item.color-change {
+    background: #15023A;
+    color: white;
+}
+
+.success-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    font-size: 22px;
+    letter-spacing: 2px;
+    flex-direction: column;
+}
+
+
+.success-message h2{
+    font-weight: 400;
+}
+
+.success-message button , .last-btn button {
+    font-size: 16px;
+    font-family: "Montserrat";
+    padding: 19px 70px;
+    background: #15023A;
+    color: #FFF;
+    text-transform: uppercase;
+    border: 1px solid #15023A;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px;
+}
+.success-message button:hover{
+    background: none;
+    color: #15023A;
+}
