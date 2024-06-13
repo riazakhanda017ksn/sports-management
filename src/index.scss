@@ -58,6 +58,19 @@ body {
   padding: 80px;
   position: relative;
 }
+.cart-banner h1 {
+  width: 100%;
+}
+.div {
+  padding: 80px 30px !important;
+}
+.buy-functionality {
+  flex-direction: column !important;
+  padding: 30px !important;
+  margin: 0 20px;
+  position: relative;
+  bottom: 40px;
+}
 .watch {
   text-align: center;
 }
@@ -205,8 +218,271 @@ body {
 
   border-radius: 6px;
 }
-
+span.box__item.marginBottom {
+  margin-top: 10px !important
+}
 .container{
   width: 1280px !important;
   margin: 0 auto;
+}
+.close {
+  display: none;
+}
+ 
+@media only screen and (max-width: 990px) {
+  .banner___text p {
+
+    width: 90% !important;
+    margin-right: 40px !important;
+}
+  .close {
+    display: block !important;
+  }
+  .container {
+    width: 100% !important
+}
+.banner___text h1 {
+  text-align: left !important;
+}
+.banner___text {
+  padding: 0 20px !important
+}
+.video-section {
+  height: 80vh !important
+}
+.management-review p {
+  font-size: 15px !important;
+  width: 85% !important;
+  line-height: 25px;
+ 
+}
+
+.contact p {
+  font-size: 15px !important;
+  width: 85% !important;
+  line-height: 25px;
+ 
+}
+
+ .contact-one p {
+  font-size: 15px !important;
+  width: 85% !important;
+  line-height: 25px;
+ 
+}
+.contact-details {
+  grid-template-columns: repeat(2, 1fr) !important;
+  padding-right: 0 !important;
+  
+}
+.cart-container {
+  grid-template-columns: repeat(1, 1fr) !important;
+
+}
+.div h1 {
+
+  text-align: center !important
+}
+.price {
+  justify-content: start !important;
+ 
+}
+.success-banner h1 {
+  width: 100% !important;
+}
+.maximum-checkout {
+  width: 90% !important;
+}
+.success-message h2 {
+  text-align: center !important;
+}
+.cart-summary {
+  margin-top: 30px !important;
+}
+.cart-summary h2 {
+  margin-bottom: 20px !important;
+}
+.payment-banner h1 {
+  width: 100% !important;
+}
+.form-grid {
+  
+  grid-template-columns: repeat(1, 1fr) !important;
+  
+  padding: 70px 30px !important;
+}
+.shipment-banner h1 {
+  width: 100% !important;
+}
+.total-container {
+  padding: 0 0px !important;
+  margin-top: 20px;
+}
+.delete {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start !important;
+  font-size: 50px;
+  margin-top: 20px !important;
+}
+.product-quantity button {
+
+  width: 100% !important;
+}
+.product-img img {
+  width: 100% !important;
+}
+.product-name {
+  margin: 18px 0 !important;
+}
+.contact-one h3 {
+ 
+  text-align: left !important;
+}
+.contact-one h3 {
+  font-size: 14px !important
+}
+.contact-one p {
+  text-align: left !important;
+}
+.contact-one h4 {
+  text-align: left !important
+}
+.contact-one p {
+  width: 100% !important;
+}
+.grid-management {
+  grid-template-columns: repeat(1, 1fr) !important;
+
+}
+.image-parent {
+  grid-template-columns: repeat(1, 1fr) !important;
+
+}
+.container-for-contact {
+  grid-template-columns: repeat(1, 1fr) !important;
+
+}
+
+.map {
+  
+  margin-top: 50px !important
+}
+.img__item {
+  margin-top: 30px !important
+}
+.contact__form {
+  margin-top: 50px !important
+}
+
+.contact h1 {
+  font-size: 27px !important;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  margin-bottom: 2px !important;
+  line-height: 40px !important;
+}
+
+.banner___text h2 {
+  font-size: 27px !important;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  margin-bottom: 2px !important;
+  line-height: 40px !important;
+  width: 90% !important;
+}
+.item__ {
+  height: 100vh !important;
+}
+.buy-functionality {
+flex-direction: column !important;
+padding: 30px !important;
+margin: 0 20px;
+}
+.contact {
+  padding: 30px !important;
+}
+
+.banner___text.item____________ {
+  position: relative;
+}
+.content-text.gap-zero {
+  margin: 0 !important;
+}
+.speaker {
+  grid-template-columns: repeat(1, 1fr) !important;
+  margin: 25px !important
+}
+
+.position-changing__item {
+  position: relative !important;
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+  bottom: 0px;
+}
+.content-text p {
+
+  width: 100% !important
+}
+
+.item__ {
+  padding: 0 !important;
+  height: 70vh !important;
+}
+
+.content-text {
+  padding: 30px !important;
+  margin-top: 180px !important;
+}
+
+
+.management-review h5 {
+  font-family: "Montez", cursive;
+  font-size: 15px !important;
+  margin-top: 20px !important;
+  text-align: center;
+  font-weight: 300;
+}
+.management-review p {
+  font-size: 14px !important;
+  width: 80% !important;
+  margin: 0 auto !important;
+  text-align: center;
+}
+.review-container h1 {
+
+  text-align: center !important
+}
+.single-img {
+  text-align: center;
+}
+.text-center.get-start button {
+  margin-top: 0 !important;
+ 
+}
+.how-to-sell {
+  position: relative;
+  top: 10px;
+}
+.review-container {
+  grid-template-columns: repeat(1, 1fr) !important
+}
+.single-img img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+  column-gap: 0 !important;
+  margin-top: 100px;
+}
+.review-container h1 {
+  font-size: 27px;
+  font-weight: 800;
+  margin-bottom: 22px !important;
+
+  line-height: 35px !important
+}
+.banner___text h1 {
+  display: inline-block !important;
+}
 }

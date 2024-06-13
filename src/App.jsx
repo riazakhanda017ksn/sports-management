@@ -10,13 +10,14 @@ import Message from "./component/Success/Message";
 import AboutManagement from "./component/AboutManagement/AboutManagement";
 import EventManagement from "./component/EventManagement/EventManagement";
 import ContactManagement from "./component/ContactManagement/ContactManagement";
+import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 
 
 function App() {
   return (
     <>
     <Router>
-      
+      <ScrollToTop/>
       <Routes>
         <Route exact path="/" element={<HomeManagement />} />
         <Route path="/details/:sport" element={<Details />} />

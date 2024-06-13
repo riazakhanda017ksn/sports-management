@@ -10,7 +10,7 @@ const EventBanner = () => {
         <>
           <div className="container">
             <div className="banner___text">
-              <h1 style={{width:"100%",marginBottom:"0"}}>OUR ALL<span className="box__item">SPORTS EVENTS</span> 
+              <h1 style={{width:"100%",marginBottom:"0"}}>OUR ALL<span className="box__item marginBottom">SPORTS EVENTS</span> 
               
                  </h1>
                 <p>

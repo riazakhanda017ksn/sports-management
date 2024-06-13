@@ -11,7 +11,7 @@ const Banner = () => {
           <div className="container">
             <div className="banner___text">
               <h1 style={{width:"100%"}}> <span className="box__item">Discover Any</span> <br />
-                <span >sports Event </span> Around You</h1>
+                <span >sports Event </span> Around <br className="close"/> You</h1>
                 <p>
                 The ability to understand what key stakeholders want from your
                 event is critical. These people may not be in the sports event

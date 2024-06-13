@@ -71,7 +71,7 @@ const Details = () => {
           }}
         >
           <div className="container">
-            <div className="banner___text">
+            <div className="banner___text item____________">
               <h1 style={{ width: "100%" }}> <span className="box__item">{item.sport}</span> </h1>
               <h2 style={{ width: "100%" }}>THIS EVENT HAS ORGANIZED BY SPORTS MANIA</h2>
             </div>
@@ -132,7 +132,7 @@ const Details = () => {
         </div>
       </div>
       <div className="container" style={{ paddingBottom: "100px" }}>
-        <div className="content-text" style={{ margin: "0", padding: "0" }}>
+        <div className="content-text gap-zero" style={{ margin: "0", padding: "0" }}>
           <h3>{item.game}'s Organizer</h3>
         </div>
         <div className="speaker">
